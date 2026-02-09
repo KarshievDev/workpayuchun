@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1273212680",
+    "project_id": "workpayuchun",
+    "storage_bucket": "workpayuchun.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1273212680:android:4342e6ecdb95ce983506bd",
+        "android_client_info": {
+          "package_name": "com.hrm.strawberry"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY-3wMG7rw82GvMNbkOrNLNdr-z8bOjDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

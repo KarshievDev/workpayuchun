@@ -1,0 +1,1 @@
+export 'view/create_daily_report_page.dart';

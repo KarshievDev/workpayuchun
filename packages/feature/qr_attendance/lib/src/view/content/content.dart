@@ -1,0 +1,1 @@
+export 'qr_attendance_content.dart';

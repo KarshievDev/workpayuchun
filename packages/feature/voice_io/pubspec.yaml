@@ -1,0 +1,57 @@
+name: voice_io
+description: Voice Input/Output package with Speech-to-Text and Text-to-Speech functionality
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+  flutter: ">=3.7.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_bloc: ^9.1.0
+  equatable: ^2.0.7
+  
+  # Voice Services
+  speech_to_text: ^7.0.0
+  flutter_tts: ^3.8.0
+  
+  # Database
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.0
+  
+  # HTTP Client for AI
+  dio: ^5.7.0
+  
+  # Core dependencies
+  core:
+    path: ../../core
+  
+  # Permissions
+  permission_handler: ^12.0.0+1
+  
+  # Lottie animations
+  lottie: ^2.7.0
+
+  #easy-to-use markdown rendering component
+  markdown_widget: ^2.3.2+8
+
+dependency_overrides:
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  bloc_test: ^10.0.0
+  build_runner: ^2.4.7
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - ../../../assets/lottie/

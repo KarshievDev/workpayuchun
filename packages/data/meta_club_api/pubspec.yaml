@@ -1,0 +1,23 @@
+name: meta_club_api
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio_service:
+    path: ../../data/dio_service
+  user_repository:
+    path: ../user_repository
+  hrm_framework:
+    path: ../../hrm_framework
+  core:
+    path: ../../core
+  equatable: ^2.0.3
+  fpdart: ^1.0.0
+  # For HTTP client
+  dio: ^5.7.0

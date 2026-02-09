@@ -1,0 +1,31 @@
+name: domain
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get_it: ^7.6.0
+  # UUID generation
+  uuid: ^4.4.2
+  #Internatinalization
+  intl: 0.19.0
+  shared_preferences: ^2.2.0
+  event_bus_plus: ^0.6.2
+  hive: ^2.2.2
+  hive_flutter: ^1.1.0
+  fpdart: ^1.0.0
+  hrm_framework:
+    path: ../hrm_framework
+  authentication_repository:
+    path: ../data/authentication_repository
+  user_repository:
+    path: ../data/user_repository
+  core:
+    path: ../core
+  meta_club_api:
+    path: ../data/meta_club_api

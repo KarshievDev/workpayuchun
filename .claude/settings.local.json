@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(flutter analyze:*)",
+      "Bash(mkdir:*)",
+      "Bash(flutter pub:*)",
+      "Bash(flutter test:*)",
+      "Bash(mv:*)",
+      "Bash(flutter:*)",
+      "Bash(flutter:*)",
+      "Bash(./gradlew:*)",
+      "WebFetch(domain:developer.android.com)",
+      "Bash(cp:*)",
+      "Bash(rm:*)",
+      "Bash(find:*)",
+      "Bash(tree:*)",
+      "Bash(dart analyze:*)",
+      "Bash(dart:*)",
+      "Bash(sudo gem install:*)",
+      "Bash(gem install:*)",
+      "Bash(brew install:*)",
+      "Bash(pod install:*)"
+    ],
+    "deny": []
+  }
+}

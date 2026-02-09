@@ -1,0 +1,33 @@
+name: chat
+description: chat functionality
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  cloud_firestore: ^5.4.4
+  http: ^1.1.0
+  photo_view: ^0.14.0
+  image_picker: ^1.0.4
+  fluttertoast: ^8.0.9
+  lottie: ^2.4.0
+  easy_localization: ^3.0.2
+  flutter_screenutil: ^5.8.4
+  domain:
+    path: ../../domain
+  core:
+    path: ../../core
+
+
+flutter:
+  assets:
+    - assets/
+    - assets/translations/
+
+dependency_overrides:
+  intl: ^0.20.2

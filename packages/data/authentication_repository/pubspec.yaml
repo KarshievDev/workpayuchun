@@ -1,0 +1,23 @@
+name: authentication_repository
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  user_repository:
+    path: '../user_repository'
+  fpdart: ^1.0.0
+  core:
+    path: '../../core'
+  meta_club_api:
+    path: '../../data/meta_club_api'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0

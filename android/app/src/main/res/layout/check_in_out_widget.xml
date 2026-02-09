@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/check_in_out_id"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:background="@drawable/round_button"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:src="@drawable/tap_figer" />
+
+    <TextView
+        android:id="@+id/btn_check_in_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Check-in"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

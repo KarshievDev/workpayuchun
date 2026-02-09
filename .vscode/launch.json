@@ -1,0 +1,111 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "onest_hrm",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "onest_hrm (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "onest_hrm (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "authentication_repository",
+            "cwd": "packages/authentication_repository",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "authentication_repository (profile mode)",
+            "cwd": "packages/authentication_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "authentication_repository (release mode)",
+            "cwd": "packages/authentication_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "dio_service",
+            "cwd": "packages/dio_service",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "dio_service (profile mode)",
+            "cwd": "packages/dio_service",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "dio_service (release mode)",
+            "cwd": "packages/dio_service",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "location_track",
+            "cwd": "packages/location_track",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "location_track (profile mode)",
+            "cwd": "packages/location_track",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "location_track (release mode)",
+            "cwd": "packages/location_track",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "meta_club_api",
+            "cwd": "packages/meta_club_api",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "meta_club_api (profile mode)",
+            "cwd": "packages/meta_club_api",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "meta_club_api (release mode)",
+            "cwd": "packages/meta_club_api",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "user_repository",
+            "cwd": "packages/user_repository",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}

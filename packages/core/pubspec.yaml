@@ -1,0 +1,33 @@
+name: core
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get_it: ^7.6.0
+  # UUID generation
+  uuid: ^4.4.2
+# Internationalization
+  intl: 0.19.0
+  shared_preferences: ^2.3.3
+  event_bus_plus: ^0.6.2
+  hive: ^2.2.2
+  hive_flutter: ^1.1.0
+  equatable: ^2.0.5
+  fpdart: ^1.0.0
+  url_launcher: ^6.3.0
+  share_plus: ^10.1.2
+  flutter_screenutil: ^5.8.4
+  lottie: ^2.4.0
+  easy_localization: ^3.0.8
+  # AI Model Integration
+  google_generative_ai: ^0.4.3
+  hrm_framework:
+    path: ../hrm_framework
+  presentation:
+    path: ../presentation

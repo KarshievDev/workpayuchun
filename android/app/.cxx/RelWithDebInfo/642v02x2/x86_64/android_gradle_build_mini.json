@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Volumes/ADATA/workspace/fvm/versions/3.29.2/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Volumes/ADATA/workspace/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Volumes/ADATA/workspace/strawberryhrm/android/app/.cxx/RelWithDebInfo/642v02x2/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Volumes/ADATA/workspace/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Volumes/ADATA/workspace/strawberryhrm/android/app/.cxx/RelWithDebInfo/642v02x2/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

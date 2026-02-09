@@ -1,0 +1,2 @@
+/Volumes/ADATA/workspace/strawberryhrm/android/app/.cxx/RelWithDebInfo/642v02x2/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Volumes/ADATA/workspace/strawberryhrm/android/app/.cxx/RelWithDebInfo/642v02x2/armeabi-v7a/CMakeFiles/rebuild_cache.dir

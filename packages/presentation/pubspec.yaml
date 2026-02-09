@@ -1,0 +1,39 @@
+name: presentation
+description: A presentation layer package containing UI factories and widgets.
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.0
+  cupertino_icons: ^1.0.8
+  
+  # Core packages
+  core:
+    path: ../core
+  
+  # Data packages
+  authentication_repository:
+    path: ../data/authentication_repository
+  user_repository:
+    path: ../data/user_repository
+  meta_club_api:
+    path: ../data/meta_club_api
+  
+  # Domain package  
+  domain:
+    path: ../domain
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
